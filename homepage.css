@@ -1,0 +1,310 @@
+* {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #161616;
+    color: white;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #252525;
+    padding: 15px 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+    position: fixed; 
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 60px;
+}
+
+.top-logo-img {
+    height: 45px;
+    border-radius: 100px;
+    border: 2px solid rgb(168, 7, 7);
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: rgb(168, 7, 7); 
+}
+
+.main-img-placeholder {
+    display: flex;
+    justify-content: center;
+    margin: 120px;
+}
+.main-img {
+    width: 250px;
+    border-radius: 300px;
+    border: 6px outset rgb(0, 0, 0)
+}
+
+.text-header {
+    display: flex;
+    width: 600px;
+    margin: -70px auto;
+    text-align: center;
+    justify-content: center;
+}
+
+.include-me {
+  background: linear-gradient(90deg, #ff5b99, #ff9966, #ffc371);
+  background-size: 300%;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: gradientMove 3s ease infinite;
+}
+
+@keyframes gradientMove {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+.p1 {
+    display: flex;
+    margin: 70px auto;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 14x;
+    color: rgb(145, 145, 145);
+    width: 700px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin: -40px auto;
+}
+
+.button1 {
+    width: 160px;
+    height: 50px;
+    border-radius: 50px;
+    font-size: 17px;
+    margin: auto 5px;
+    font-weight: 600;
+    padding: 5px;
+    border: 0;
+}
+
+.button2 {
+    width: 160px;
+    height: 50px;
+    border-radius: 50px;
+    font-size: 17px;
+    margin: auto 5px;
+    font-weight: 600;
+    padding: 5px;
+    background: black;
+    border: 2px solid white;
+    color: white;
+}
+
+.skillful-txt {
+    display: flex;
+    justify-content: center;
+    margin: 90px auto 70px auto;
+    color: rgb(226, 226, 226);
+    font-weight: 600;
+    letter-spacing: 3px;
+}
+
+.experiences-img {
+    display: flex;
+    justify-content: center;
+    margin: -20px auto;
+}
+
+.logo-img {
+    margin: 0px 20px;
+    height: 35px;
+}
+
+.projects-txt {
+    display: flex;
+    justify-content: center;
+    margin: 90px auto 20px auto;
+    font-size: 18px;
+    letter-spacing: 3px;
+    background: linear-gradient(30deg, #d400ff, #00f7ff, #0359f8);
+    background-size: 300%;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: gradientMove 3s ease infinite;
+}
+
+.projects-container {
+    display: flex;
+    justify-content: center;
+    margin: 30px auto;
+}
+
+.gd-img {
+    height: 390px;
+    width: 360px;
+    background-image: url("../images/GD.jpg");
+    background-size: cover;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.gd-txt p {
+    color: rgb(255, 255, 255);
+    font-size: 10px;
+    letter-spacing: 1px;
+    
+}
+
+.gd-txt {
+    background: rgb(68, 68, 68);
+    padding: 10px 0 10px 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.AI-program-img {
+    height: 390px;
+    width: 360px;
+    background-image: url("../images/programming.jpg");
+    background-size: cover;
+    background-position: center;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.AI-program-txt p {
+    color: rgb(255, 255, 255);
+    font-size: 10px;
+    letter-spacing: 1px;
+    
+}
+
+.AI-program-txt {
+    background: rgb(68, 68, 68);
+    padding: 10px 0 10px 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.projects-container1 {
+    margin: 0 20px 0px 0;
+}
+
+.projects-container2 {
+    margin: 0 0 0 20px;
+}
+
+.experience-txt {
+    text-align: center;
+    color: rgb(68, 133, 255);
+    margin: 50px;
+    font-size: 18px;
+    letter-spacing: 3px;
+    background: linear-gradient(90deg, #d400ff, #00f7ff, #0359f8);
+    background-size: 300%;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: gradientMove 3s ease infinite;
+}
+
+#hybreed-logo {
+    width: 30px;
+    margin-right: 8px;
+}
+
+.experience1 {
+    display: flex;
+    align-items: center;
+}
+
+.experience-list-container1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 700px;
+    margin: 30px auto;
+}
+
+#hybreed-txt {
+    display: flex;
+    width: 700px;
+    margin: -10px auto;
+    text-align: start;
+    color: rgb(145, 145, 145);
+    font-size: 14.5px;
+}
+
+.date {
+    color: rgb(145, 145, 145);
+    font-size: 13px;
+}
+
+.experience-container {
+    margin: 0 0 60px 0;
+}
+
+.footer {
+    background: rgb(29, 29, 29);
+    height: 360px;
+}
+
+.contact-container {
+    display: flex;
+    width: 700px;
+    margin: 0 auto;
+}
+
+.contact-txt {
+    margin-top: 70px;
+    font-size: 22px;
+    letter-spacing: 1px;
+}
+
+.summary {
+    text-align: left;
+    width: 700px;
+    margin: 0 auto;
+}
+
+#summary-txt {
+    margin-top: 40px;
+    font-size: 14px;
+    color: rgb(145, 145, 145);
+}
+
+.mini-logo-bottom {
+    width: 25px;
+    margin-right: 5px;
+}
+
+.logotxt-bottom {
+    width: 700px;
+    margin: 40px auto;
+    display: flex;
+    align-items: center;
+}
+
+#email-id {
+    font-size: 14px;
+    color: rgb(224, 224, 224);
+}
