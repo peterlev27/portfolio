@@ -51,6 +51,7 @@ body {
     display: flex;
     justify-content: center;
     margin: 120px auto;
+    width: 100%;
 }
 .main-img {
     width: 250px;
@@ -63,6 +64,7 @@ body {
     margin: -70px auto;
     text-align: center;
     justify-content: center;
+    width: 100%;
 }
 
 .include-me {
@@ -86,6 +88,7 @@ body {
     text-align: center;
     font-size: 14x;
     color: rgb(145, 145, 145);
+    width: 100%;
     max-width: 700px;
 }
 
@@ -244,6 +247,7 @@ body {
     align-items: center;
     justify-content: space-between;
     max-width: 700px;
+    width: 100%;
     margin: 30px auto;
     font-size: 13px;
     padding: 10px;
@@ -252,6 +256,7 @@ body {
 #hybreed-txt {
     display: flex;
     max-width: 700px;
+    width: 100%;
     margin: -10px auto;
     text-align: start;
     color: rgb(145, 145, 145);
@@ -276,6 +281,7 @@ body {
 .contact-container {
     display: flex;
     max-width: 700px;
+    width: 100%;
     margin: 0 auto;
     padding: 10px;
 }
@@ -289,6 +295,7 @@ body {
 .summary {
     text-align: left;
     max-width: 700px;
+    width: 100%;
     margin: 0 auto;
     padding: 10px;
 }
@@ -306,6 +313,7 @@ body {
 
 .logotxt-bottom {
     max-width: 700px;
+    width: 100%;
     margin: 40px auto;
     display: flex;
     align-items: center;
