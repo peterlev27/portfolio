@@ -4,4 +4,4 @@ Attached is my full portfolio where I coded it from scratch. This is my 4th day 
 
 ## Table of Contents
 
-- [Homepage]([index.html](https://peterlev27.github.io/portfolio/))
+- [Homepage](https://peterlev27.github.io/portfolio/)
